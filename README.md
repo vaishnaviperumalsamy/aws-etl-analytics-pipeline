@@ -71,24 +71,15 @@ FROM analytics.orders_parquet_datalake
 LIMIT 10;
 ```
 
-##Key Learnings
+## **Key Learnings**
+- **Serverless ETL Design:** Built an end-to-end AWS ETL pipeline using S3, Lambda, Glue, and Athena  
+- **Data Transformation:** Converted nested JSON data into analytics-ready Parquet format  
+- **Schema Management:** Used AWS Glue crawlers for automated schema inference  
+- **Analytics Enablement:** Enabled efficient SQL-based querying using Amazon Athena  
+- **Debugging & Optimization:** Resolved Lambda runtime and dependency issues  
 
-Built a serverless ETL pipeline on AWS
-
-Converted nested JSON data into analytics-ready Parquet format
-
-Used AWS Glue crawlers for schema inference
-
-Queried large datasets efficiently using Amazon Athena
-
-Debugged Lambda runtime and dependency issues
-
-##Future Enhancements
-
-Partition Parquet data by date
-
-Add error handling and dead-letter queues (DLQ)
-
-Automate infrastructure using Terraform
-
-Add data quality checks using AWS Glue Data Quality
+## **Future Enhancements**
+- **Partitioning:** Partition Parquet files by date for improved query performance  
+- **Reliability:** Add error handling and dead-letter queues (DLQ)  
+- **Infrastructure as Code:** Automate deployments using Terraform  
+- **Data Quality:** Implement data validation using AWS Glue Data Quality  
