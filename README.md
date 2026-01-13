@@ -84,8 +84,9 @@ LIMIT 10;
 - **Infrastructure as Code:** Automate deployments using Terraform  
 - **Data Quality:** Implement data validation using AWS Glue Data Quality
 
-  ## 📸 Pipeline Screenshots
-  ### 🗂️ S3 Bucket Structure
+## 📸 AWS ETL Pipeline Screenshots
+
+ ### 🗂️ S3 Bucket Structure
 ![S3 Bucket Structure](screenshots/s3_bucket_structure.png)
 
 ### 📦 Parquet Output in S3
