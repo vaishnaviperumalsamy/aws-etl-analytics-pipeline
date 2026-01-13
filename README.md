@@ -71,7 +71,7 @@ FROM analytics.orders_parquet_datalake
 LIMIT 10;
 ```
 
-Key Learnings
+##Key Learnings
 
 Built a serverless ETL pipeline on AWS
 
@@ -83,7 +83,7 @@ Queried large datasets efficiently using Amazon Athena
 
 Debugged Lambda runtime and dependency issues
 
-Future Enhancements
+##Future Enhancements
 
 Partition Parquet data by date
 
