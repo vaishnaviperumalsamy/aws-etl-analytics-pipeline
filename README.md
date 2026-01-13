@@ -82,4 +82,24 @@ LIMIT 10;
 - **Partitioning:** Partition Parquet files by date for improved query performance  
 - **Reliability:** Add error handling and dead-letter queues (DLQ)  
 - **Infrastructure as Code:** Automate deployments using Terraform  
-- **Data Quality:** Implement data validation using AWS Glue Data Quality  
+- **Data Quality:** Implement data validation using AWS Glue Data Quality
+
+  ## 📸 Pipeline Screenshots
+  ### 🗂️ S3 Bucket Structure
+![S3 Bucket Structure](screenshots/s3_bucket_structure.png)
+
+### 📦 Parquet Output in S3
+![Parquet File in S3](screenshots/parquet_file_s3.png)
+
+### ⚙️ Lambda S3 Trigger
+![Lambda S3 Trigger](screenshots/lambda_s3_trigger.png)
+
+### 📊 AWS Glue Table Schema
+![Glue Table Schema](screenshots/glue_table_schema.png)
+
+### 🔍 Athena Query Result
+![Athena Query Result](screenshots/athena_query_result.png)
+
+### 📝 CloudWatch Logs
+![CloudWatch Logs](screenshots/cloudwatch_logs.png)
+
