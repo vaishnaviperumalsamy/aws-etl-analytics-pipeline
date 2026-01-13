@@ -69,6 +69,7 @@ etl-demo-project/
 SELECT order_id, product_name, price, quantity
 FROM analytics.orders_parquet_datalake
 LIMIT 10;
+```
 
 Key Learnings
 
@@ -82,7 +83,7 @@ Queried large datasets efficiently using Amazon Athena
 
 Debugged Lambda runtime and dependency issues
 
-📌 Future Enhancements
+Future Enhancements
 
 Partition Parquet data by date
 
@@ -91,5 +92,3 @@ Add error handling and dead-letter queues (DLQ)
 Automate infrastructure using Terraform
 
 Add data quality checks using AWS Glue Data Quality
-
-
